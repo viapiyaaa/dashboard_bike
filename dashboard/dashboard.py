@@ -34,7 +34,7 @@ st.header('📊 Bicycle Distribution Dashboard')
 with st.sidebar:
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        st.image("logo.jpg")
+        st.image("dashboard/logo.jpg")
 
     st.subheader("🔍 Pilih Tampilan:")
     if st.button("Dashboard Utama"):
